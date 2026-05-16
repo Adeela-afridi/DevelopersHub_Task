@@ -12,7 +12,6 @@
         <a asp-controller="Catalog" asp-action="Index" asp-route-category="consumer-electronics">Computer and tech</a>
         <a asp-controller="Catalog" asp-action="Index" asp-route-category="machinery-tools">Tools, equipments</a>
         <a asp-controller="Catalog" asp-action="Index" asp-route-category="sports-outdoor">Sports and outdoor</a>
-        <a asp-controller="Catalog" asp-action="Index" asp-route-category="animal-pets">Animal and pets</a>
         <a asp-controller="Catalog" asp-action="Index" asp-route-category="machinery-tools">Machinery tools</a>
         <a asp-controller="Catalog" asp-action="Index">More category</a>
     </aside>
@@ -37,7 +36,7 @@
 
         @if (User.Identity?.IsAuthenticated == true)
         {
-            <a class="btn btn-primary btn-block" asp-controller="Orders" asp-action="Index">My orders</a>
+            <a class="btn btn-primary btn-block" asp-controller="Orders" asp-action="Index">My Orders</a>
         }
         else
         {
@@ -159,7 +158,7 @@
             </select>
         </div>
 
-        <button class="btn btn-primary" type="submit">Send inquiry</button>
+        <button class="btn btn-primary" type="submit">Add to cart</button>
     </form>
 </section>
 

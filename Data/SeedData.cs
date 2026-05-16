@@ -149,7 +149,7 @@ public static class SeedData
             new Category { Name = "Home and outdoor", Slug = "home-outdoor", Icon = "home" },
             new Category { Name = "Machinery tools", Slug = "machinery-tools", Icon = "tool" },
             new Category { Name = "Sports and outdoor", Slug = "sports-outdoor", Icon = "bike" },
-            new Category { Name = "Animal and pets", Slug = "animal-pets", Icon = "paw" }
+           
         };
 
         foreach (var category in categoryData)
